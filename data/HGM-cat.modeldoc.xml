@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:51:25Z">
+      generator-date="2018-09-24T19:52:55Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -1369,7 +1369,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De huidige versie heeft als naam "GeoTOP".</item>
+                        <item>De huidige versie heeft als naam "REGIS".</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
