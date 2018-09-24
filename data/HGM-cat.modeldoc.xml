@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:36:34Z">
+      generator-date="2018-09-24T19:38:07Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -1176,6 +1176,10 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                   <item>Naam</item>
                   <item>Dikte</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>De dikte van de laag.</item>
@@ -1219,6 +1223,10 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Doorlatendheid</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -3896,6 +3904,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                         <item>Naam</item>
                         <item>top</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Top van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
@@ -3918,6 +3930,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>basis</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -3947,6 +3963,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                         <item>Naam</item>
                         <item>hoogteligging</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Hoogteligging in m ten opzichte van NAP.</item>
@@ -3969,6 +3989,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>standaardeviatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -3998,6 +4022,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                         <item>Naam</item>
                         <item>dikte</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De dikte van de laag in meters. De dikte is afleidbaar uit het verschil tussen top en basis.</item>
@@ -4020,6 +4048,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>standaardeviate</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -4049,6 +4081,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                         <item>Naam</item>
                         <item>doorlatendheid</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Een maat voor het vermogen van de grond om vloeistof of gas door te laten, gelijk te stellen aan de volumestroom (172) door een eenheid van oppervlakte als de stijghoogtegradiënt loodrecht op het oppervlak gelijk is aan één, in meter per dag.</item>
@@ -4071,6 +4107,10 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>standaarddeviatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
