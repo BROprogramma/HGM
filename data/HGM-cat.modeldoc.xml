@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:38:07Z">
+      generator-date="2018-09-24T19:42:22Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -720,9 +720,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischInterval_naam">naam</item>
+                              idref="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischInterval_hydrogeologischeEenheid">hydrogeologische eenheid</item>
                      </item>
-                     <item/>
+                     <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_HydrogeologischeEenheid">Hydrogeologische eenheid</item>
                      </item>
@@ -2882,18 +2882,22 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      type="OBJECTTYPE"
                      id="detail_class_BROREGIS_GeNterpreteerdHydrogeologischInterval"
                      id-global="global_class_BROREGIS_GeNterpreteerdHydrogeologischInterval">
-               <section name="naam"
+               <section name="hydrogeologische eenheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischInterval_naam"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdHydrogeologischInterval_naam">
+                        id="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischInterval_hydrogeologischeEenheid"
+                        id-global="global_attribute_BROREGIS_GeNterpreteerdHydrogeologischInterval_hydrogeologischeEenheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>naam</item>
+                        <item>hydrogeologische eenheid</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
