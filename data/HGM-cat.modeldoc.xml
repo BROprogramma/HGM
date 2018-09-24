@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:35:25Z">
+      generator-date="2018-09-24T19:36:34Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -697,9 +697,17 @@
                   <item>Naam</item>
                   <item>Geïnterpreteerd hydrogeologisch interval</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Interpretatie van een in REGIS gebruikt boormonsterprofiel als opeenvolging van boorbeschrijvingsintervallen van gelijke hydrogeologische eenheid.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>TNO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
