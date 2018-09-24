@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:21:37Z">
+      generator-date="2018-09-24T19:32:25Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -697,6 +697,10 @@
                   <item>Naam</item>
                   <item>Geïnterpreteerd hydrogeologisch interval</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Interpretatie van een in REGIS gebruikt boormonsterprofiel als opeenvolging van boorbeschrijvingsintervallen van gelijke hydrogeologische eenheid.</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -811,6 +815,10 @@ te laten in verticale richting in meter per dag.</item>
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een volume van een hydrogeologische eenheid die in een modelgebiedversie is opgenomen en die aan de top en basis begrensd wordt door grensvlakken.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>TNO</item>
@@ -896,7 +904,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      </item>
                      <item>De horizontale weerstand in meter per dag.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">doorlatendheid</item>
+                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">Doorlatendheid</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -907,7 +915,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">doorlatendheid</item>
+                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">Doorlatendheid</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -1195,14 +1203,14 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                </content>
             </section>
          </section>
-         <section name="doorlatendheid"
+         <section name="Doorlatendheid"
                   type="STRUCTUREDDATATYPE"
                   id="global_class_BROREGIS_Doorlatendheid"
                   uuid="EAID_630AC0EA_FC63_49db_85E0_2415AD50FEEA">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>doorlatendheid</item>
+                  <item>Doorlatendheid</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -3467,7 +3475,7 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>doorlatendheid</item>
+                        <item>Doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3520,7 +3528,7 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>doorlatendheid</item>
+                        <item>Doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4008,7 +4016,7 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                   </content>
                </section>
             </section>
-            <section name="doorlatendheid"
+            <section name="Doorlatendheid"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_BROREGIS_Doorlatendheid"
                      id-global="global_class_BROREGIS_Doorlatendheid">
