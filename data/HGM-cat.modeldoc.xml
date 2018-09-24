@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T11:07:58Z">
+      generator-date="2018-09-24T18:47:56Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -892,22 +892,22 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Laag_horizontaleDoorlatenheid">horizontale doorlatenheid</item>
+                              idref="detail_attribute_BROREGIS_Laag_horizontaleDoorlatendheid">horizontale doorlatendheid</item>
                      </item>
                      <item>De horizontale weerstand in meter per dag.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Doorlatenheid">Doorlatenheid</item>
+                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">doorlatendheid</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Laag_verticaleDoorlatenheid">verticale doorlatenheid</item>
+                              idref="detail_attribute_BROREGIS_Laag_verticaleDoorlatendheid">verticale doorlatendheid</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Doorlatenheid">Doorlatenheid</item>
+                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">doorlatendheid</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -1195,14 +1195,14 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                </content>
             </section>
          </section>
-         <section name="Doorlatenheid"
+         <section name="doorlatendheid"
                   type="STRUCTUREDDATATYPE"
-                  id="global_class_BROREGIS_Doorlatenheid"
+                  id="global_class_BROREGIS_Doorlatendheid"
                   uuid="EAID_630AC0EA_FC63_49db_85E0_2415AD50FEEA">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Doorlatenheid</item>
+                  <item>doorlatendheid</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -1219,7 +1219,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Doorlatenheid_doorlatenheid">doorlatenheid</item>
+                              idref="detail_attribute_BROREGIS_Doorlatendheid_doorlatendheid">doorlatendheid</item>
                      </item>
                      <item>Een maat voor het vermogen van de grond om vloeistof of gas door te laten, gelijk te stellen aan de volumestroom (172) door een eenheid van oppervlakte als de stijghoogtegradiënt loodrecht op het oppervlak gelijk is aan één, in meter per dag.</item>
                      <item>
@@ -1230,9 +1230,9 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Doorlatenheid_standaarddeviatie">standaarddeviatie</item>
+                              idref="detail_attribute_BROREGIS_Doorlatendheid_standaarddeviatie">standaarddeviatie</item>
                      </item>
-                     <item>Standaarddeviatie van de doorlatenheid in meter per dag.</item>
+                     <item>Standaarddeviatie van de doorlatendheid in meter per dag.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
                      </item>
@@ -3406,14 +3406,14 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-               <section name="horizontale doorlatenheid"
+               <section name="horizontale doorlatendheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_horizontaleDoorlatenheid"
-                        id-global="global_attribute_BROREGIS_Laag_horizontaleDoorlatenheid">
+                        id="detail_attribute_BROREGIS_Laag_horizontaleDoorlatendheid"
+                        id-global="global_attribute_BROREGIS_Laag_horizontaleDoorlatendheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>horizontale doorlatenheid</item>
+                        <item>horizontale doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -3429,9 +3429,9 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De horizontale doorlatenheid wordt berekend voor goed doorlatende eenheden (zanden en kalkstenen), en voor complexe eenheden.
+                        <item>De horizontale doorlatendheid wordt berekend voor goed doorlatende eenheden (zanden en kalkstenen), en voor complexe eenheden.
 
-Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatenheid, transmissiviteit en weerstand) berekend.</item>
+Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatendheid, transmissiviteit en weerstand) berekend.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3455,7 +3455,7 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Doorlatenheid</item>
+                        <item>doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3463,14 +3463,14 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      </part>
                   </content>
                </section>
-               <section name="verticale doorlatenheid"
+               <section name="verticale doorlatendheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_verticaleDoorlatenheid"
-                        id-global="global_attribute_BROREGIS_Laag_verticaleDoorlatenheid">
+                        id="detail_attribute_BROREGIS_Laag_verticaleDoorlatendheid"
+                        id-global="global_attribute_BROREGIS_Laag_verticaleDoorlatendheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>verticale doorlatenheid</item>
+                        <item>verticale doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -3482,9 +3482,9 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De verticale doorlatenheid wordt berekend voor slecht doorlatende eenheden (kleien, venen en bruinkolen), en voor complexe eenheden.
+                        <item>De verticale doorlatendheid wordt berekend voor slecht doorlatende eenheden (kleien, venen en bruinkolen), en voor complexe eenheden.
 
-Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatenheid, transmissiviteit en weerstand) berekend.</item>
+Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatendheid, transmissiviteit en weerstand) berekend.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3508,7 +3508,7 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Doorlatenheid</item>
+                        <item>doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3541,7 +3541,7 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                         <item>Toelichting</item>
                         <item>Transmissiviteit wordt opgenomen bij goed doorlatende eenheden (zanden en kalkstenen) en bij complexe eenheden.
 
-Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatenheid, transmissiviteit en weerstand) berekend.
+Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatendheid, transmissiviteit en weerstand) berekend.
 
 Gelijk te stellen aan de volumestroom (244) die per breedte-eenheid van het watervoerend pakket en per eenheid van stijghoogtegradiënt door een watervoerende laag stroomt.</item>
                      </part>
@@ -3600,7 +3600,7 @@ Gelijk te stellen aan de volumestroom (244) die per breedte-eenheid van het wate
                         <item>Toelichting</item>
                         <item>Weerstand wordt opgenomen bij slecht doorlatende eenheden (kleien, venen en bruinkolen), en bij complexe eenheden.
 
-Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatenheid, transmissiviteit en weerstand) berekend.
+Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, verticale doorlatendheid, transmissiviteit en weerstand) berekend.
 
 Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laag en de volumestroomdichtheid (245) door deze laag. Bij een homogene laag is deze grootheid gelijk te stellen aan het quotiënt van laagdikte en doorlatendheid, wat overeenkomt met de reciproke van 227.</item>
                      </part>
@@ -3996,18 +3996,18 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                   </content>
                </section>
             </section>
-            <section name="Doorlatenheid"
+            <section name="doorlatendheid"
                      type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_BROREGIS_Doorlatenheid"
-                     id-global="global_class_BROREGIS_Doorlatenheid">
-               <section name="doorlatenheid"
+                     id="detail_class_BROREGIS_Doorlatendheid"
+                     id-global="global_class_BROREGIS_Doorlatendheid">
+               <section name="doorlatendheid"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Doorlatenheid_doorlatenheid"
-                        id-global="global_attribute_BROREGIS_Doorlatenheid_doorlatenheid">
+                        id="detail_attribute_BROREGIS_Doorlatendheid_doorlatendheid"
+                        id-global="global_attribute_BROREGIS_Doorlatendheid_doorlatendheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>doorlatenheid</item>
+                        <item>doorlatendheid</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -4025,8 +4025,8 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                </section>
                <section name="standaarddeviatie"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Doorlatenheid_standaarddeviatie"
-                        id-global="global_attribute_BROREGIS_Doorlatenheid_standaarddeviatie">
+                        id="detail_attribute_BROREGIS_Doorlatendheid_standaarddeviatie"
+                        id-global="global_attribute_BROREGIS_Doorlatendheid_standaarddeviatie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4034,7 +4034,7 @@ Te berekenen als quotiënt van het verschil in stijghoogte boven en onder de laa
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Standaarddeviatie van de doorlatenheid in meter per dag.</item>
+                        <item>Standaarddeviatie van de doorlatendheid in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
