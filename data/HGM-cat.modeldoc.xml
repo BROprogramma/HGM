@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:10:55Z">
+      generator-date="2018-09-24T19:15:01Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -80,7 +80,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_BROREGIS_Model_dekkingsgebied">dekkingsgebied</item>
                      </item>
-                     <item/>
+                     <item>Het geografische gebied waarvoor het model geldig is.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_GM_Surface">GM_Surface</item>
                      </item>
@@ -231,7 +231,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROREGIS_Modelgebied_freatischVlak">freatisch vlak</item>
                      </item>
-                     <item>Grondwaterspiegel. Het vlak door de punten waar het grondwater een drukhoogte (271) gelijk nul heeft.</item>
+                     <item>Het freatische vlak is de bovenkant van de grondwaterspiegel, het vlak waar de druk in het grondwater gelijk is aan de atmosferische druk.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
                      </item>
@@ -873,7 +873,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      <item>
                         <item type="detail" idref="detail_attribute_BROREGIS_Laag_breuk">breuk</item>
                      </item>
-                     <item>Een breuk is</item>
+                     <item>De zone in een basis van de laag waar breukwerking heeft plaats gevonden.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_GM_MultiCurve">GM_MultiCurve</item>
                      </item>
@@ -883,7 +883,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      <item>
                         <item type="detail" idref="detail_attribute_BROREGIS_Laag_karteergebied">karteergebied</item>
                      </item>
-                     <item>Het gebied waar binnen de laag is gekarteerd.</item>
+                     <item>Het geografische gebied waarbinnen de laag is gekarteerd.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_GM_Surface">GM_Surface</item>
                      </item>
@@ -1550,6 +1550,10 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het geografische gebied waarvoor het model geldig is.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>TNO</item>
@@ -2003,7 +2007,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Grondwaterspiegel. Het vlak door de punten waar het grondwater een drukhoogte (271) gelijk nul heeft.</item>
+                        <item>Het freatische vlak is de bovenkant van de grondwaterspiegel, het vlak waar de druk in het grondwater gelijk is aan de atmosferische druk.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -3319,7 +3323,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een breuk is</item>
+                        <item>De zone in een basis van de laag waar breukwerking heeft plaats gevonden.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -3370,7 +3374,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het gebied waar binnen de laag is gekarteerd.</item>
+                        <item>Het geografische gebied waarbinnen de laag is gekarteerd.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
