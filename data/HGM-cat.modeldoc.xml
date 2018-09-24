@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:42:22Z">
+      generator-date="2018-09-24T19:45:43Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -921,7 +921,8 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                         <item type="detail"
                               idref="detail_attribute_BROREGIS_Laag_verticaleDoorlatendheid">verticale doorlatendheid</item>
                      </item>
-                     <item/>
+                     <item>Het vermogen van de grond om vloeistof of gas door
+te laten in verticale richting in meter per dag.</item>
                      <item>
                         <item type="global" idref="global_class_BROREGIS_Doorlatendheid">Doorlatendheid</item>
                      </item>
@@ -3097,9 +3098,17 @@ te laten in verticale richting in meter per dag.</item>
                         <item>Naam</item>
                         <item>behoort tot</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Één Geïnterpreteerd hydrogeologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>TNO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3116,6 +3125,10 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
@@ -3527,6 +3540,11 @@ Voor HL-c en DT-c worden geen parameters (ofwel horizontale doorlatendheid, vert
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het vermogen van de grond om vloeistof of gas door
+te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
