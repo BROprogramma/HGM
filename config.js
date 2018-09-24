@@ -7,15 +7,25 @@ var respecConfig = {
     company: "Geonovum",
     companyURL: "https://www.geonovum.nl"
   }],
-  authors: [{
-	name: "Jan, Jan, Rob",
-    company: "TNO",
-    companyURL: "https://www.tno.nl"  	  
-	  
-  }],
+   authors: [
+    {
+      name: "Jan Hummelman",
+      company: "TNO",
+      companyURL: "http://www.tno.nl",
+    },
+	{
+      name: "Jan Stafleu",
+      company: "TNO",
+      companyURL: "http://www.tno.nl",
+    },
+	{
+      name: "Rob van Ede",
+      company: "TNO",
+      companyURL: "http://www.tno.nl",
+    }]
   shortName: "bro-HGM",
   pubDomain: "bro",
-  github: "https://github.com/BROprogramma/SAMPLE",
+  github: "https://github.com/BROprogramma/HGM",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
