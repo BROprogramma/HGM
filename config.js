@@ -12,7 +12,7 @@ var respecConfig = {
     company: "TNO",
     companyURL: "https://www.tno.nl"  	  
 	  
-  }]
+  }],
   shortName: "bro-HGM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SAMPLE",
