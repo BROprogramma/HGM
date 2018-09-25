@@ -4,8 +4,54 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T19:52:55Z">
-   <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS"><!--removed empty content-->
+      generator-date="2018-09-25T10:35:10Z">
+   <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
+      <section type="IMAGEMAPS"
+               name="BRO: REGIS-imagemap"
+               id="imagemap_package_BROREGIS">
+         <section type="IMAGEMAP"
+                  name="Geïnterpreteerde boormonsterprofielen met beschrijvings- en interpretatie-intervallen - overzicht"
+                  id="EAID_F5C182FD_0FDF_4a8e_8743_45661AAB7289">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geïnterpreteerde boormonsterprofielen met beschrijvings- en interpretatie-intervallen - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="HGM objecten zonder attributen - overzicht"
+                  id="EAID_567CA058_3E18_410c_9A70_B15C82F2D77E">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>HGM objecten zonder attributen - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Lagenmodel - overzicht"
+                  id="EAID_71D4736B_2FC5_4209_84BD_968F3D960275">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Lagenmodel - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
                   type="OBJECTTYPE"
