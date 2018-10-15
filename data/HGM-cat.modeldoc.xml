@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-10-09T07:07:46Z">
+      generator-date="2018-10-09T07:23:07Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
       <section type="IMAGEMAPS"
                name="BRO: REGIS-imagemap"
@@ -409,7 +409,7 @@
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname (snapshot) gemaakt van de boormonsterprofielen en de bijbehorende boorbeschrijvingsintervallen in de bron-databank. De interpretaties van de boormonsterprofielen worden vervolgens gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de DINO-databank worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie. </item>
+                  <item>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname (snapshot) gemaakt van de boormonsterprofielen en de bijbehorende boorbeschrijvingsintervallen in de bron-databank. De interpretaties van de boormonsterprofielen worden vervolgens gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de bron-databank worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie. </item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
