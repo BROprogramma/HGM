@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book name="BRO: REGIS"
-      subpath="REGIS/BRO: REGIS/20180925"
+<book name="BRO:DGM"
+      subpath="DGM/BRO:DGM/20180925"
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
-      generator-version="1.47.2"
-      generator-date="2018-10-09T07:23:07Z">
-   <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
+      generator-version="1.47.3"
+      generator-date="2018-10-15T05:32:50Z">
+   <section type="DOMAIN" name="BRO: DGM" id="global_package_BRODGM">
       <section type="IMAGEMAPS"
-               name="BRO: REGIS-imagemap"
-               id="imagemap_package_BROREGIS">
+               name="BRO: DGM-imagemap"
+               id="imagemap_package_BRODGM">
          <section type="IMAGEMAP"
-                  name="Geïnterpreteerde boormonsterprofielen met beschrijvings- en interpretatie-intervallen - overzicht"
+                  name="Geïnterpreteerde boormonsterbeschrijvingen met beschrijvings- en interpretatie-intervallen - overzicht"
                   id="EAID_F5C182FD_0FDF_4a8e_8743_45661AAB7289">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Geïnterpreteerde boormonsterprofielen met beschrijvings- en interpretatie-intervallen - overzicht</item>
+                  <item>Geïnterpreteerde boormonsterbeschrijvingen met beschrijvings- en interpretatie-intervallen - overzicht</item>
                </part>
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
@@ -24,12 +24,12 @@
             </content>
          </section>
          <section type="IMAGEMAP"
-                  name="HGM objecten zonder attributen - overzicht"
+                  name="DGM objecten zonder attributen - overzicht"
                   id="EAID_567CA058_3E18_410c_9A70_B15C82F2D77E">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>HGM objecten zonder attributen - overzicht</item>
+                  <item>DGM objecten zonder attributen - overzicht</item>
                </part>
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
@@ -39,7 +39,7 @@
          </section>
          <section type="IMAGEMAP"
                   name="Lagenmodel - overzicht"
-                  id="EAID_71D4736B_2FC5_4209_84BD_968F3D960275">
+                  id="EAID_ACED6A53_B287_4c32_A8E4_0CBBEB8BD2AB">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -55,7 +55,7 @@
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
                   type="OBJECTTYPE"
-                  id="global_class_BROREGIS_Model"
+                  id="global_class_BRODGM_Model"
                   uuid="EAID_1E343B19_582D_4d7c_8649_5B8B6F8FC3FB">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -68,7 +68,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een versie van het ondergrondmodel REGIS, bestaande uit één of meer modelgebieden.</item>
+                  <item>Een versie van het ondergrondmodel DGM, bestaande uit één of meer modelgebieden.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -84,7 +84,7 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Model_naam">naam</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Model_naam">naam</item>
                      </item>
                      <item>Naam van de modelversie.</item>
                      <item>
@@ -94,7 +94,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Model_versie">versie</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Model_versie">versie</item>
                      </item>
                      <item>Versienummer.</item>
                      <item>
@@ -104,7 +104,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Model_datumIngang">datum ingang</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Model_datumIngang">datum ingang</item>
                      </item>
                      <item>Eerste dag waarop de modelversie actueel is.</item>
                      <item>
@@ -114,7 +114,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Model_datumEinde">datum einde</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Model_datumEinde">datum einde</item>
                      </item>
                      <item>Laatste dag waarop de modelversie actueel is.</item>
                      <item>
@@ -124,11 +124,11 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Model_dekkingsgebied">dekkingsgebied</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Model_dekkingsgebied">dekkingsgebied</item>
                      </item>
                      <item>Het geografische gebied waarvoor het model geldig is.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_GM_Surface">GM_Surface</item>
+                        <item type="global" idref="global_class_BRODGM_GM_Surface">GM_Surface</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -145,10 +145,10 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                      </item>
@@ -165,10 +165,10 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                      </item>
@@ -179,7 +179,7 @@
          </section>
          <section name="Modelgebied"
                   type="OBJECTTYPE"
-                  id="global_class_BROREGIS_Modelgebied"
+                  id="global_class_BRODGM_Modelgebied"
                   uuid="EAID_49820BC8_E8A9_4c8e_89AD_75B8323E83A1">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -196,7 +196,7 @@
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
-                  <item>TNO</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -208,7 +208,7 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Modelgebied_naam">naam</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Modelgebied_naam">naam</item>
                      </item>
                      <item>Naam van een modelgebiedversie.</item>
                      <item>
@@ -218,7 +218,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Modelgebied_versie">versie</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Modelgebied_versie">versie</item>
                      </item>
                      <item>Versienummer.</item>
                      <item>
@@ -228,7 +228,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Modelgebied_datumIngang">datum ingang</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Modelgebied_datumIngang">datum ingang</item>
                      </item>
                      <item>Eerste dag waarop het modelgebied actueel is.</item>
                      <item>
@@ -238,7 +238,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Modelgebied_datumEinde">datum einde</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Modelgebied_datumEinde">datum einde</item>
                      </item>
                      <item>Laatste dag waarop het modelgebied actueel is.</item>
                      <item>
@@ -249,33 +249,21 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Modelgebied_dekkingsgebied">dekkingsgebied</item>
+                              idref="detail_attribute_BRODGM_Modelgebied_dekkingsgebied">dekkingsgebied</item>
                      </item>
                      <item>Het geografische gebied waarvoor het model geldig is.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_GM_Surface">GM_Surface</item>
+                        <item type="global" idref="global_class_BRODGM_GM_Surface">GM_Surface</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_Modelgebied_grensvlakTop">grensvlak top</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Modelgebied_grensvlakTop">grensvlak top</item>
                      </item>
                      <item>Raster met de beschrijving van maaiveld en waterbodemhoogte in meters t.o.v. NAP.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_Modelgebied_freatischVlak">freatisch vlak</item>
-                     </item>
-                     <item>Het freatische vlak is de bovenkant van de grondwaterspiegel, het vlak waar de druk in het grondwater gelijk is aan de atmosferische druk.</item>
-                     <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
+                        <item type="global" idref="global_class_BRODGM_CV_Coverage">CV_Coverage</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -289,12 +277,12 @@
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Model">Model</item>
+                           <item type="global" idref="global_class_BRODGM_Model">Model</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 .. * ]</item>
@@ -305,27 +293,27 @@
                      <item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Éen geïnterpreteerd boormonsterprofiel behoort tot één Modelgebied.</item>
+                     <item>Éen Geïnterpreteerde boormonsterbeschrijving behoort tot één Modelgebied.</item>
                   </part>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Laag">Laag</item>
+                           <item type="global" idref="global_class_BRODGM_Laag">Laag</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 ]</item>
@@ -340,12 +328,12 @@
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Model">Model</item>
+                           <item type="global" idref="global_class_BRODGM_Model">Model</item>
                         </item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Model_gerelateerdeModelgebied">is samengesteld uit: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 .. * ]</item>
@@ -356,27 +344,27 @@
                      <item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerd boormonsterprofiel behoort.</item>
+                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerde boormonsterbeschrijving behoort.</item>
                   </part>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Laag">Laag</item>
+                           <item type="global" idref="global_class_BRODGM_Laag">Laag</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 ]</item>
@@ -386,14 +374,14 @@
                </content>
             </section>
          </section>
-         <section name="Geïnterpreteerd boormonsterprofiel"
+         <section name="Geïnterpreteerde boormonsterbeschrijving"
                   type="OBJECTTYPE"
-                  id="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel"
+                  id="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving"
                   uuid="EAID_60D3E745_BE53_4980_9810_351C8ED7ABB1">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Geïnterpreteerd boormonsterprofiel</item>
+                  <item>Geïnterpreteerde boormonsterbeschrijving</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -401,15 +389,15 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een in een modelgebied gebruikt boormonsterprofiel waarbij een interpretatie in hydrogeologische eenheden is gemaakt.</item>
+                  <item>Een in een modelgebied gebruikt boormonsterbeschrijving waarbij een interpretatie in geologische eenheden is gemaakt.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
-                  <item>TNO</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname (snapshot) gemaakt van de boormonsterprofielen en de bijbehorende boorbeschrijvingsintervallen in de bron-databank. De interpretaties van de boormonsterprofielen worden vervolgens gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de bron-databank worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie. </item>
+                  <item>Bij het construeren van een modelgebied wordt op een zeker moment een momentopname (snapshot) gemaakt van de boormonsterbeschrijvingen en de bijbehorende boorbeschrijvingsintervallen in de bron-databank. De interpretaties van de boormonsterbeschrijvingen worden vervolgens gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de bron-databank worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie. </item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -422,9 +410,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_boornummer">boornummer</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_boornummer">boornummer</item>
                      </item>
-                     <item>Unieke aanduiding van het boormonsterprofiel.</item>
+                     <item>Unieke aanduiding van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -433,20 +421,20 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_geometrie">geometrie</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_geometrie">geometrie</item>
                      </item>
-                     <item>Puntgeometrie met de ligging en hoogte van het boormonsterprofiel.</item>
+                     <item>Puntgeometrie met de ligging en hoogte van het boormonsterbeschrijving.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_GM_Point">GM_Point</item>
+                        <item type="global" idref="global_class_BRODGM_GM_Point">GM_Point</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_einddiepte">einddiepte</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_einddiepte">einddiepte</item>
                      </item>
-                     <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -461,49 +449,49 @@
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Éen geïnterpreteerd boormonsterprofiel behoort tot één Modelgebied.</item>
+                     <item>Éen Geïnterpreteerde boormonsterbeschrijving behoort tot één Modelgebied.</item>
                   </part>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Boorbeschrijvingsinterval">Boorbeschrijvingsinterval</item>
+                           <item type="global" idref="global_class_BRODGM_Boorbeschrijvingsinterval">Boorbeschrijvingsinterval</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                   <part>
                      <item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval">Geïnterpreteerd hydrogeologisch eenheid-interval</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdGeologischeEenheidInterval">Geïnterpreteerd geologische eenheid-interval</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Geïnterpreteerd hydrogeologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -512,56 +500,56 @@
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerd boormonsterprofiel behoort.</item>
+                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerde boormonsterbeschrijving behoort.</item>
                   </part>
                   <part>
                      <item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Boorbeschrijvingsinterval">Boorbeschrijvingsinterval</item>
+                           <item type="global" idref="global_class_BRODGM_Boorbeschrijvingsinterval">Boorbeschrijvingsinterval</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterprofiel waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
                   </part>
                   <part>
                      <item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval">Geïnterpreteerd hydrogeologisch eenheid-interval</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdGeologischeEenheidInterval">Geïnterpreteerd geologische eenheid-interval</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd hydrogeologisch eenheid-interval behoort.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
                   </part>
                </content>
             </section>
          </section>
          <section name="Boorbeschrijvingsinterval"
                   type="OBJECTTYPE"
-                  id="global_class_BROREGIS_Boorbeschrijvingsinterval"
+                  id="global_class_BRODGM_Boorbeschrijvingsinterval"
                   uuid="EAID_EABACEC5_67CE_4c7d_B6D9_697C45934660">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -574,11 +562,11 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Boorbeschrijvingsinterval van een in een modelgebied geïnterpreteerd boormonsterprofiel.</item>
+                  <item>Boorbeschrijvingsinterval van een in een modelgebied Geïnterpreteerde boormonsterbeschrijving.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
-                  <item>TNO</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -591,18 +579,18 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_interval">interval</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_interval">interval</item>
                      </item>
-                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Interval">Interval</item>
+                        <item type="global" idref="global_class_BRODGM_Interval">Interval</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_lithologie">lithologie</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_lithologie">lithologie</item>
                      </item>
                      <item>Code die de lithologie van het interval aangeeft.</item>
                      <item>
@@ -613,7 +601,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_zandmediaanklasse">zandmediaanklasse</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_zandmediaanklasse">zandmediaanklasse</item>
                      </item>
                      <item>Vastlegging van de zandmediaan als klasse waarin deze mediaan valt.</item>
                      <item>
@@ -624,7 +612,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_grindmediaanklasse">grindmediaanklasse</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_grindmediaanklasse">grindmediaanklasse</item>
                      </item>
                      <item>Vastlegging van de grindmediaan als klasse waarin deze mediaan valt.</item>
                      <item>
@@ -635,7 +623,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingKlei">bijmenging klei</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingKlei">bijmenging klei</item>
                      </item>
                      <item>Code die de mate van bijmenging van klei aangeeft.</item>
                      <item>
@@ -646,7 +634,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingSilt">bijmenging silt</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingSilt">bijmenging silt</item>
                      </item>
                      <item>Code die de mate van bijmenging van silt aangeeft.</item>
                      <item>
@@ -657,7 +645,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingZand">bijmenging zand</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingZand">bijmenging zand</item>
                      </item>
                      <item>Code die de mate van bijmenging van zand aangeeft.</item>
                      <item>
@@ -668,7 +656,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingGrind">bijmenging grind</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingGrind">bijmenging grind</item>
                      </item>
                      <item>Code die de mate van bijmenging van grind aangeeft.</item>
                      <item>
@@ -679,7 +667,7 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingHumus">bijmenging humus</item>
+                              idref="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingHumus">bijmenging humus</item>
                      </item>
                      <item>Code die de mate van bijmenging van humeus materiaal aangeeft.</item>
                      <item>
@@ -700,15 +688,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -721,27 +709,27 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterprofiel waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
                   </part>
                </content>
             </section>
          </section>
-         <section name="Geïnterpreteerd hydrogeologisch eenheid-interval"
+         <section name="Geïnterpreteerd geologische eenheid-interval"
                   type="OBJECTTYPE"
-                  id="global_class_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval"
-                  uuid="EAID_554B283B_8416_41cd_85B5_C1B56A0E67A3">
+                  id="global_class_BRODGM_GeNterpreteerdGeologischeEenheidInterval"
+                  uuid="EAID_EF8EC97C_E5D3_4b73_838D_2A7674DBBA82">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Geïnterpreteerd hydrogeologisch eenheid-interval</item>
+                  <item>Geïnterpreteerd geologische eenheid-interval</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -749,11 +737,11 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>De hydrogeologische eenheid waartoe het interval behoort</item>
+                  <item>Interpretatie van een in DGM gebruikt boormonsterbeschrijving als opeenvolging van boorbeschrijvingsintervallen van gelijke geologische eenheid.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
-                  <item>TNO</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -766,48 +754,46 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_hydrogeologischeEenheid">hydrogeologische eenheid</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_interval">interval</item>
                      </item>
-                     <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
+                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_HydrogeologischeEenheid">Hydrogeologische eenheid</item>
+                        <item type="global" idref="global_class_BRODGM_Interval">Interval</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_interval">interval</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_geologischeEenheid">geologische eenheid</item>
                      </item>
-                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>De geologische eenheid waartoe het interval behoort</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Interval">Interval</item>
+                        <item type="global" idref="global_class_BRODGM_GeologischeEenheid">Geologische eenheid</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_horizontaleDoorlatendheid">horizontale doorlatendheid</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_indicatieGestuwd">indicatie gestuwd</item>
                      </item>
-                     <item>Het vermogen van de grond om vloeistof of gas door
-te laten in horizontale richting in meter per dag.</item>
+                     <item>Indicatie of het interval door landijs gestuwd is.</item>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global" idref="global_class_BRODGM_Indicatie">Indicatie</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_verticaleDoorlatendheid">verticale doorlatendheid</item>
+                              idref="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_geulgeneratie">geulgeneratie</item>
                      </item>
-                     <item>Het vermogen van de grond om vloeistof of gas door
-te laten in verticale richting in meter per dag.</item>
+                     <item>Code die aangeeft of het interval tot een holocene fluviatiele zandbaan behoort, en zo ja van welke generatie c.q. relatieve ouderdom de zandbaan is.</item>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global">CHARACTERSTRING</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -818,19 +804,19 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Geïnterpreteerd hydrogeologisch eenheid-interval</item>
+                        <item>Geïnterpreteerd geologische eenheid-interval</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Geïnterpreteerd hydrogeologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -839,26 +825,26 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Geïnterpreteerd hydrogeologisch eenheid-interval</item>
+                        <item>Geïnterpreteerd geologische eenheid-interval</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BRODGM_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd hydrogeologisch eenheid-interval behoort.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
                   </part>
                </content>
             </section>
          </section>
          <section name="Laag"
                   type="OBJECTTYPE"
-                  id="global_class_BROREGIS_Laag"
+                  id="global_class_BRODGM_Laag"
                   uuid="EAID_693FE0BB_8597_4519_AEB5_C3F00FF68EC3">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -871,11 +857,11 @@ te laten in verticale richting in meter per dag.</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een volume van een hydrogeologische eenheid die in een modelgebiedversie is opgenomen en die aan de top en basis begrensd wordt door grensvlakken.</item>
+                  <item>Een volume van een geologische eenheid die in een modelgebiedversie is opgenomen en die aan de top en basis begrensd wordt door grensvlakken.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
-                  <item>TNO</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -887,107 +873,74 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_grensvlakTop">grensvlak top</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Laag_grensvlakTop">grensvlak top</item>
                      </item>
                      <item>De ruimtelijke begrenzing van de bovenkant van een modellaag.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Grensvlak">Grensvlak</item>
+                        <item type="global" idref="global_class_BRODGM_Grensvlak">Grensvlak</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_grensvlakBasis">grensvlak basis</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Laag_grensvlakBasis">grensvlak basis</item>
                      </item>
                      <item>De ruimtelijke begrenzing van de onderkant van een modellaag.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Grensvlak">Grensvlak</item>
+                        <item type="global" idref="global_class_BRODGM_Grensvlak">Grensvlak</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_dikte">dikte</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Laag_dikte">dikte</item>
                      </item>
-                     <item>Dikte van de laag.</item>
+                     <item>Dikte en standaarddeviatie van de dikte van de laag.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Dikte">Dikte</item>
+                        <item type="global" idref="global_class_BRODGM_Dikte">Dikte</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Laag_hydrogeologischeEenheid">hydrogeologische eenheid</item>
+                              idref="detail_attribute_BRODGM_Laag_kansGeologischeEenheid">kans geologische eenheid</item>
                      </item>
-                     <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
+                     <item>De kans op het voorkomen van de geologische eenheid binnen het dekkingsgebied.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_HydrogeologischeEenheid">Hydrogeologische eenheid</item>
+                        <item type="global" idref="global_class_BRODGM_CV_Coverage">CV_Coverage</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_breuk">breuk</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Laag_geologischeEenheid">geologische eenheid</item>
+                     </item>
+                     <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
+                     <item>
+                        <item type="global" idref="global_class_BRODGM_GeologischeEenheid">Geologische eenheid</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Laag_breuk">breuk</item>
                      </item>
                      <item>De zone in een basis van de laag waar breukwerking heeft plaats gevonden.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_GM_MultiCurve">GM_MultiCurve</item>
+                        <item type="global" idref="global_class_BRODGM_GM_MultiCurve">GM_MultiCurve</item>
                      </item>
                      <item>0 .. *</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_karteergebied">karteergebied</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Laag_karteergebied">karteergebied</item>
                      </item>
                      <item>Het geografische gebied waarbinnen de laag is gekarteerd.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_GM_Surface">GM_Surface</item>
+                        <item type="global" idref="global_class_BRODGM_GM_Surface">GM_Surface</item>
                      </item>
                      <item>1 .. *</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_Laag_horizontaleDoorlatendheid">horizontale doorlatendheid</item>
-                     </item>
-                     <item>Het vermogen van de grond om vloeistof of gas door te laten in horizontale richting in meter per dag.</item>
-                     <item>
-                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">Doorlatendheid</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_Laag_verticaleDoorlatendheid">verticale doorlatendheid</item>
-                     </item>
-                     <item>Het vermogen van de grond om vloeistof of gas door
-te laten in verticale richting in meter per dag.</item>
-                     <item>
-                        <item type="global" idref="global_class_BROREGIS_Doorlatendheid">Doorlatendheid</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_transmissiviteit">transmissiviteit</item>
-                     </item>
-                     <item>Doorlaatvermogen; maat voor het vermogen van een watervoerend pakket om water door te laten in vierkante meters per dag (m2/d).</item>
-                     <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Laag_verticaleWeerstand">verticale weerstand</item>
-                     </item>
-                     <item>Weerstand die een bepaalde laag biedt tegen een verticale grondwaterstroming in dagen.</item>
-                     <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
-                     </item>
-                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -1002,10 +955,10 @@ te laten in verticale richting in meter per dag.</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
@@ -1022,10 +975,10 @@ te laten in verticale richting in meter per dag.</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROREGIS_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BRODGM_Laag_gerelateerdeModelgebied">maakt deel uit van: gerelateerdeModelgebied</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
@@ -1037,14 +990,14 @@ te laten in verticale richting in meter per dag.</item>
       </section>
       <!--removed empty content-->
       <section type="OVERVIEW-REFERENCELIST">
-         <section name="Hydrogeologische eenheid"
+         <section name="Geologische eenheid"
                   type="REFERENCELIST"
-                  id="global_class_BROREGIS_HydrogeologischeEenheid"
-                  uuid="EAID_3D144196_3341_402a_BBE2_C272D8751D74">
+                  id="global_class_BRODGM_GeologischeEenheid"
+                  uuid="EAID_1A52927C_A9EC_4958_91B4_84080986A8FD">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Hydrogeologische eenheid</item>
+                  <item>Geologische eenheid</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -1052,7 +1005,7 @@ te laten in verticale richting in meter per dag.</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
+                  <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
                </part>
             </content>
             <section type="SHORT-REFERENCEELEMENTS">
@@ -1064,10 +1017,19 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="REFERENCEELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_HydrogeologischeEenheid_code">code</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_GeologischeEenheid_code">code</item>
                      </item>
-                     <item>Unieke, identificerende code van de hydrogeologische eenheid.</item>
+                     <item>Unieke, identificerende code van de geologische eenheid.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_BRODGM_GeologischeEenheid_naam">naam</item>
+                     </item>
+                     <item>Naam van de geologische eenheid.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -1076,20 +1038,9 @@ te laten in verticale richting in meter per dag.</item>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_HydrogeologischeEenheid_naam">naam</item>
+                              idref="detail_attribute_BRODGM_GeologischeEenheid_volgnummer">volgnummer</item>
                      </item>
-                     <item>Naam van de hydrogeologische eenheid.</item>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_HydrogeologischeEenheid_volgnummer">volgnummer</item>
-                     </item>
-                     <item>Volgnummer van de preferente volgorde waarin de hydrogeologische eenheden geordend zijn. Lage nummers liggen relatief hoog in de kolom. Het volgnummer wordt o.a. gebruikt bij het tonen van de hydrogeologische eenheden in een legenda.</item>
+                     <item>Volgnummer van de preferente stratigrafische volgorde waarin de geologische eenheden geordend zijn. Lage nummers liggen relatief hoog in de stratigrafische kolom. Het volgnummer wordt o.a. gebruikt bij het tonen van de geologische eenheden in een legenda.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -1097,12 +1048,11 @@ te laten in verticale richting in meter per dag.</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_HydrogeologischeEenheid_kleur">kleur</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_GeologischeEenheid_kleur">kleur</item>
                      </item>
-                     <item>RGB-waarden van de kleur waarmee de hydrogeologische eenheid in visualisaties wordt weergegeven.</item>
+                     <item>RGB-waarden van de kleur waarmee de geologische eenheid in visualisaties wordt weergegeven.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_Kleur">Kleur</item>
+                        <item type="global" idref="global_class_BRODGM_Kleur">Kleur</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1114,7 +1064,7 @@ te laten in verticale richting in meter per dag.</item>
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
          <section name="Interval"
                   type="STRUCTUREDDATATYPE"
-                  id="global_class_BROREGIS_Interval"
+                  id="global_class_BRODGM_Interval"
                   uuid="EAID_A872E101_2289_4f83_8BB5_C6802D6604FA">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -1127,7 +1077,7 @@ te laten in verticale richting in meter per dag.</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                  <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -1139,9 +1089,9 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="DATAELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Interval_top">top</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Interval_top">top</item>
                      </item>
-                     <item>Top van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Top van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -1149,9 +1099,9 @@ te laten in verticale richting in meter per dag.</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Interval_basis">basis</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Interval_basis">basis</item>
                      </item>
-                     <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -1162,7 +1112,7 @@ te laten in verticale richting in meter per dag.</item>
          </section>
          <section name="Grensvlak"
                   type="STRUCTUREDDATATYPE"
-                  id="global_class_BROREGIS_Grensvlak"
+                  id="global_class_BRODGM_Grensvlak"
                   uuid="EAID_5D88BF5A_A509_4a0b_BD04_54939778DF23">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -1175,7 +1125,7 @@ te laten in verticale richting in meter per dag.</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>De ruimtelijke begrenzing.</item>
+                  <item>Ruimtelijke begrenzing en standaarddeviatie.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -1187,31 +1137,31 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="DATAELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Grensvlak_hoogteligging">hoogteligging</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Grensvlak_hoogteligging">hoogteligging</item>
                      </item>
                      <item>Hoogteligging in m ten opzichte van NAP.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
+                        <item type="global" idref="global_class_BRODGM_CV_Coverage">CV_Coverage</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROREGIS_Grensvlak_standaardeviatie">standaardeviatie</item>
+                              idref="detail_attribute_BRODGM_Grensvlak_standaardeviatie">standaardeviatie</item>
                      </item>
                      <item>Standaarddeviatie van de hoogteligging in m.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
+                        <item type="global" idref="global_class_BRODGM_CV_Coverage">CV_Coverage</item>
                      </item>
-                     <item>0</item>
+                     <item>1</item>
                   </part>
                </content>
             </section>
          </section>
          <section name="Dikte"
                   type="STRUCTUREDDATATYPE"
-                  id="global_class_BROREGIS_Dikte"
+                  id="global_class_BRODGM_Dikte"
                   uuid="EAID_D6EB3C13_5A54_4053_AE8D_704566109C37">
             <content>
                <part type="CFG-DOC-NAAM">
@@ -1236,71 +1186,31 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="DATAELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Dikte_dikte">dikte</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Dikte_dikte">dikte</item>
                      </item>
                      <item>De dikte van de laag in meters. De dikte is afleidbaar uit het verschil tussen top en basis.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
-         <section name="Doorlatendheid"
-                  type="STRUCTUREDDATATYPE"
-                  id="global_class_BROREGIS_Doorlatendheid"
-                  uuid="EAID_630AC0EA_FC63_49db_85E0_2415AD50FEEA">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Doorlatendheid</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Het vermogen van de grond om vloeistof of gas door te laten.</item>
-               </part>
-            </content>
-            <section type="SHORT-DATAELEMENTS">
-               <content>
-                  <itemtype/>
-                  <itemtype type="DATAELEMENT-NAME"/>
-                  <itemtype type="DATAELEMENT-DEFINITION"/>
-                  <itemtype type="DATAELEMENT-FORMAT"/>
-                  <itemtype type="DATAELEMENT-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_Doorlatendheid_doorlatendheid">doorlatendheid</item>
-                     </item>
-                     <item>Een maat voor het vermogen van de grond om vloeistof of gas door te laten, gelijk te stellen aan de volumestroom door een eenheid van oppervlakte als de stijghoogtegradiënt loodrecht op het oppervlak gelijk is aan één, in meter per dag.</item>
-                     <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
+                        <item type="global" idref="global_class_BRODGM_CV_Coverage">CV_Coverage</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_BROREGIS_Doorlatendheid_standaarddeviatie">standaarddeviatie</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Dikte_standaardeviate">standaardeviate</item>
                      </item>
-                     <item>Standaarddeviatie van de doorlatendheid in meter per dag.</item>
+                     <item>Standaarddeviatie van de dikte in m.</item>
                      <item>
-                        <item type="global" idref="global_class_BROREGIS_CV_Coverage">CV_Coverage</item>
+                        <item type="global" idref="global_class_BRODGM_CV_Coverage">CV_Coverage</item>
                      </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                </content>
             </section>
          </section>
          <section name="Kleur"
                   type="STRUCTUREDDATATYPE"
-                  id="global_class_BROREGIS_Kleur"
-                  uuid="EAID_1E4863C0_714F_4aff_BA8A_5E1079F39688">
+                  id="global_class_BRODGM_Kleur"
+                  uuid="EAID_E1543714_7244_4890_A02C_CE669BBD62B3">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -1324,7 +1234,7 @@ te laten in verticale richting in meter per dag.</item>
                   <itemtype type="DATAELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Kleur_rood">rood</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Kleur_rood">rood</item>
                      </item>
                      <item>Hoeveelheid (0 tm 255) van de kleur rood</item>
                      <item>
@@ -1334,7 +1244,7 @@ te laten in verticale richting in meter per dag.</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Kleur_groen">groen</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Kleur_groen">groen</item>
                      </item>
                      <item>Hoeveelheid (0 tm 255) van de kleur groen</item>
                      <item>
@@ -1344,7 +1254,7 @@ te laten in verticale richting in meter per dag.</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_BROREGIS_Kleur_blauw">blauw</item>
+                        <item type="detail" idref="detail_attribute_BRODGM_Kleur_blauw">blauw</item>
                      </item>
                      <item>Hoeveelheid (0 tm 255) van de kleur blauw</item>
                      <item>
@@ -1357,40 +1267,10 @@ te laten in verticale richting in meter per dag.</item>
          </section>
       </section>
       <section type="OVERVIEW-PRIMITIVEDATATYPE">
-         <section name="GM_Surface"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_BROREGIS_GM_Surface"
-                  uuid="EAID_5F448CDD_8717_4571_9931_763824B8785F">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>GM_Surface</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Vlak. 2-dimensionale geometrie. (bron: ISO 19107:2003 Spatial Schema)</item>
-               </part>
-            </content>
-         </section>
-         <section name="GM_Point"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_BROREGIS_GM_Point"
-                  uuid="EAID_6B2CB552_C6BE_40eb_8252_6867667BAD39">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>GM_Point</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Punt. 0-dimensionale geometrie. (bron: ISO 19107:2003 Spatial Schema)</item>
-               </part>
-            </content>
-         </section>
          <section name="GM_MultiCurve"
                   type="PRIMITIVEDATATYPE"
-                  id="global_class_BROREGIS_GM_MultiCurve"
-                  uuid="EAID_E2CD6070_B73B_48ed_A4AB_3754EB4C4B01">
+                  id="global_class_BRODGM_GM_MultiCurve"
+                  uuid="EAID_4F81EB44_6919_4924_824B_D8ABBB75984F">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -1402,10 +1282,40 @@ te laten in verticale richting in meter per dag.</item>
                </part>
             </content>
          </section>
+         <section name="GM_Point"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_BRODGM_GM_Point"
+                  uuid="EAID_8DD8FAF4_4823_41a2_A89C_07BB64AB77B2">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>GM_Point</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Punt. 0-dimensionale geometrie. (bron: ISO 19107:2003 Spatial Schema)</item>
+               </part>
+            </content>
+         </section>
+         <section name="GM_Surface"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_BRODGM_GM_Surface"
+                  uuid="EAID_A1B200DA_9710_4e6d_8FF6_DB7EBDAD219C">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>GM_Surface</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Vlak. 2-dimensionale geometrie. (bron: ISO 19107:2003 Spatial Schema)</item>
+               </part>
+            </content>
+         </section>
          <section name="CV_Coverage"
                   type="PRIMITIVEDATATYPE"
-                  id="global_class_BROREGIS_CV_Coverage"
-                  uuid="EAID_FC43DAAA_CA24_4831_BD2B_EA8B6F21007E">
+                  id="global_class_BRODGM_CV_Coverage"
+                  uuid="EAID_D25DD469_3D3A_49f9_AB29_FAC9B8A05082">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -1422,9 +1332,9 @@ te laten in verticale richting in meter per dag.</item>
       <section type="OVERVIEW-ENUMERATION">
          <content>
             <part>
-               <item id="global_class_BROREGIS_Indicatie"
+               <item id="global_class_BRODGM_Indicatie"
                      uuid="EAID_59E5F7F9_781C_4607_94B9_F605E5DEBCA5"
-                     idref="detail_class_BROREGIS_Indicatie">Indicatie</item>
+                     idref="detail_class_BRODGM_Indicatie">Indicatie</item>
                <item>Een aanduiding waarmee wordt aangegeven of een bepaalde indicatie al dan niet van toepassing is.</item>
             </part>
          </content>
@@ -1433,12 +1343,12 @@ te laten in verticale richting in meter per dag.</item>
          <section type="DETAILS-OBJECTTYPE">
             <section name="Model"
                      type="OBJECTTYPE"
-                     id="detail_class_BROREGIS_Model"
-                     id-global="global_class_BROREGIS_Model">
+                     id="detail_class_BRODGM_Model"
+                     id-global="global_class_BRODGM_Model">
                <section name="naam"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Model_naam"
-                        id-global="global_attribute_BROREGIS_Model_naam">
+                        id="detail_attribute_BRODGM_Model_naam"
+                        id-global="global_attribute_BRODGM_Model_naam">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1454,7 +1364,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1488,8 +1398,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="versie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Model_versie"
-                        id-global="global_attribute_BROREGIS_Model_versie">
+                        id="detail_attribute_BRODGM_Model_versie"
+                        id-global="global_attribute_BRODGM_Model_versie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1505,7 +1415,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1539,8 +1449,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="datum ingang"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Model_datumIngang"
-                        id-global="global_attribute_BROREGIS_Model_datumIngang">
+                        id="detail_attribute_BRODGM_Model_datumIngang"
+                        id-global="global_attribute_BRODGM_Model_datumIngang">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1556,7 +1466,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1590,8 +1500,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="datum einde"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Model_datumEinde"
-                        id-global="global_attribute_BROREGIS_Model_datumEinde">
+                        id="detail_attribute_BRODGM_Model_datumEinde"
+                        id-global="global_attribute_BRODGM_Model_datumEinde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1607,7 +1517,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1645,8 +1555,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="dekkingsgebied"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Model_dekkingsgebied"
-                        id-global="global_attribute_BROREGIS_Model_dekkingsgebied">
+                        id="detail_attribute_BRODGM_Model_dekkingsgebied"
+                        id-global="global_attribute_BRODGM_Model_dekkingsgebied">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1662,7 +1572,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1696,8 +1606,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="is samengesteld uit"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROREGIS_Model_gerelateerdeModelgebied"
-                        id-global="global_association_BROREGIS_Model_gerelateerdeModelgebied">
+                        id="detail_association_BRODGM_Model_gerelateerdeModelgebied"
+                        id-global="global_association_BRODGM_Model_gerelateerdeModelgebied">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1713,7 +1623,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1738,7 +1648,7 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                      </part>
                   </content>
@@ -1757,7 +1667,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1778,7 +1688,7 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                      </part>
                   </content>
@@ -1786,12 +1696,12 @@ te laten in verticale richting in meter per dag.</item>
             </section>
             <section name="Modelgebied"
                      type="OBJECTTYPE"
-                     id="detail_class_BROREGIS_Modelgebied"
-                     id-global="global_class_BROREGIS_Modelgebied">
+                     id="detail_class_BRODGM_Modelgebied"
+                     id-global="global_class_BRODGM_Modelgebied">
                <section name="naam"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_naam"
-                        id-global="global_attribute_BROREGIS_Modelgebied_naam">
+                        id="detail_attribute_BRODGM_Modelgebied_naam"
+                        id-global="global_attribute_BRODGM_Modelgebied_naam">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1807,7 +1717,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1841,8 +1751,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="versie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_versie"
-                        id-global="global_attribute_BROREGIS_Modelgebied_versie">
+                        id="detail_attribute_BRODGM_Modelgebied_versie"
+                        id-global="global_attribute_BRODGM_Modelgebied_versie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1858,7 +1768,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1892,8 +1802,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="datum ingang"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_datumIngang"
-                        id-global="global_attribute_BROREGIS_Modelgebied_datumIngang">
+                        id="detail_attribute_BRODGM_Modelgebied_datumIngang"
+                        id-global="global_attribute_BRODGM_Modelgebied_datumIngang">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1909,7 +1819,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1943,8 +1853,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="datum einde"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_datumEinde"
-                        id-global="global_attribute_BROREGIS_Modelgebied_datumEinde">
+                        id="detail_attribute_BRODGM_Modelgebied_datumEinde"
+                        id-global="global_attribute_BRODGM_Modelgebied_datumEinde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1960,7 +1870,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1998,8 +1908,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="dekkingsgebied"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_dekkingsgebied"
-                        id-global="global_attribute_BROREGIS_Modelgebied_dekkingsgebied">
+                        id="detail_attribute_BRODGM_Modelgebied_dekkingsgebied"
+                        id-global="global_attribute_BRODGM_Modelgebied_dekkingsgebied">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2015,7 +1925,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2049,8 +1959,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="grensvlak top"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_grensvlakTop"
-                        id-global="global_attribute_BROREGIS_Modelgebied_grensvlakTop">
+                        id="detail_attribute_BRODGM_Modelgebied_grensvlakTop"
+                        id-global="global_attribute_BRODGM_Modelgebied_grensvlakTop">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2066,58 +1976,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CV_Coverage</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="freatisch vlak"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Modelgebied_freatischVlak"
-                        id-global="global_attribute_BROREGIS_Modelgebied_freatischVlak">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>freatisch vlak</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
                         <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het freatische vlak is de bovenkant van de grondwaterspiegel, het vlak waar de druk in het grondwater gelijk is aan de atmosferische druk.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>TNO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2150,14 +2009,14 @@ te laten in verticale richting in meter per dag.</item>
                   </content>
                </section>
             </section>
-            <section name="Geïnterpreteerd boormonsterprofiel"
+            <section name="Geïnterpreteerde boormonsterbeschrijving"
                      type="OBJECTTYPE"
-                     id="detail_class_BROREGIS_GeNterpreteerdBoormonsterprofiel"
-                     id-global="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">
+                     id="detail_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving"
+                     id-global="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">
                <section name="boornummer"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_boornummer"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_boornummer">
+                        id="detail_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_boornummer"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_boornummer">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2169,7 +2028,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Unieke aanduiding van het boormonsterprofiel.</item>
+                        <item>Unieke aanduiding van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2207,8 +2066,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="geometrie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_geometrie"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_geometrie">
+                        id="detail_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_geometrie"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_geometrie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2220,7 +2079,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Puntgeometrie met de ligging en hoogte van het boormonsterprofiel.</item>
+                        <item>Puntgeometrie met de ligging en hoogte van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2228,7 +2087,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Driedimensionale puntgeometrie, waarbij X-coördinaat en Y-coördinaat in het Rijksdriehoekstelsel van de ligging van het boormonsterprofiel en hoogte van het maaiveld c.q. de waterbodem ter plaatse van het boormonsterprofiel in mm ten opzichte van NAP.</item>
+                        <item>Driedimensionale puntgeometrie, waarbij X-coördinaat en Y-coördinaat in het Rijksdriehoekstelsel van de ligging van het boormonsterbeschrijving en hoogte van het maaiveld c.q. de waterbodem ter plaatse van het boormonsterbeschrijving in mm ten opzichte va</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2262,8 +2121,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="einddiepte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_einddiepte"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdBoormonsterprofiel_einddiepte">
+                        id="detail_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_einddiepte"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_einddiepte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2275,7 +2134,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2313,8 +2172,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="behoort tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROREGIS_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied"
-                        id-global="global_association_BROREGIS_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">
+                        id="detail_association_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied"
+                        id-global="global_association_BRODGM_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2326,11 +2185,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Éen geïnterpreteerd boormonsterprofiel behoort tot één Modelgebied.</item>
+                        <item>Éen Geïnterpreteerde boormonsterbeschrijving behoort tot één Modelgebied.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2355,7 +2214,7 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                      </part>
                   </content>
@@ -2370,11 +2229,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerd boormonsterprofiel behoort.</item>
+                        <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerde boormonsterbeschrijving behoort.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2395,7 +2254,7 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                      </part>
                   </content>
@@ -2403,12 +2262,12 @@ te laten in verticale richting in meter per dag.</item>
             </section>
             <section name="Boorbeschrijvingsinterval"
                      type="OBJECTTYPE"
-                     id="detail_class_BROREGIS_Boorbeschrijvingsinterval"
-                     id-global="global_class_BROREGIS_Boorbeschrijvingsinterval">
+                     id="detail_class_BRODGM_Boorbeschrijvingsinterval"
+                     id-global="global_class_BRODGM_Boorbeschrijvingsinterval">
                <section name="interval"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_interval"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_interval">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_interval"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_interval">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2420,7 +2279,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2458,8 +2317,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="lithologie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_lithologie"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_lithologie">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_lithologie"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_lithologie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2509,8 +2368,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="zandmediaanklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_zandmediaanklasse"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_zandmediaanklasse">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_zandmediaanklasse"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_zandmediaanklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2560,8 +2419,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="grindmediaanklasse"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_grindmediaanklasse"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_grindmediaanklasse">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_grindmediaanklasse"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_grindmediaanklasse">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2577,7 +2436,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2611,8 +2470,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="bijmenging klei"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingKlei"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingKlei">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingKlei"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingKlei">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2662,8 +2521,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="bijmenging silt"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingSilt"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingSilt">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingSilt"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingSilt">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2713,8 +2572,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="bijmenging zand"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingZand"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingZand">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingZand"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingZand">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2764,8 +2623,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="bijmenging grind"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingGrind"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingGrind">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingGrind"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingGrind">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2815,8 +2674,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="bijmenging humus"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingHumus"
-                        id-global="global_attribute_BROREGIS_Boorbeschrijvingsinterval_bijmengingHumus">
+                        id="detail_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingHumus"
+                        id-global="global_attribute_BRODGM_Boorbeschrijvingsinterval_bijmengingHumus">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2866,8 +2725,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="maakt deel uit van"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROREGIS_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel"
-                        id-global="global_association_BROREGIS_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">
+                        id="detail_association_BRODGM_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving"
+                        id-global="global_association_BRODGM_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2879,11 +2738,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerd boormonsterprofiel.</item>
+                        <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerde boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2909,7 +2768,7 @@ te laten in verticale richting in meter per dag.</item>
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -2924,11 +2783,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterprofiel waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
+                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2950,71 +2809,20 @@ te laten in verticale richting in meter per dag.</item>
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
                </section>
             </section>
-            <section name="Geïnterpreteerd hydrogeologisch eenheid-interval"
+            <section name="Geïnterpreteerd geologische eenheid-interval"
                      type="OBJECTTYPE"
-                     id="detail_class_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval"
-                     id-global="global_class_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval">
-               <section name="hydrogeologische eenheid"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_hydrogeologischeEenheid"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_hydrogeologischeEenheid">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>hydrogeologische eenheid</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>TNO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Hydrogeologische eenheid</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
+                     id="detail_class_BRODGM_GeNterpreteerdGeologischeEenheidInterval"
+                     id-global="global_class_BRODGM_GeNterpreteerdGeologischeEenheidInterval">
                <section name="interval"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_interval"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_interval">
+                        id="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_interval"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_interval">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3026,11 +2834,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3062,14 +2870,14 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-               <section name="horizontale doorlatendheid"
+               <section name="geologische eenheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_horizontaleDoorlatendheid"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_horizontaleDoorlatendheid">
+                        id="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_geologischeEenheid"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_geologischeEenheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>horizontale doorlatendheid</item>
+                        <item>geologische eenheid</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -3077,12 +2885,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het vermogen van de grond om vloeistof of gas door
-te laten in horizontale richting in meter per dag.</item>
+                        <item>De geologische eenheid waartoe het interval behoort</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3106,7 +2913,7 @@ te laten in horizontale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>REAL</item>
+                        <item>Geologische eenheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3114,14 +2921,14 @@ te laten in horizontale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-               <section name="verticale doorlatendheid"
+               <section name="indicatie gestuwd"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_verticaleDoorlatendheid"
-                        id-global="global_attribute_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_verticaleDoorlatendheid">
+                        id="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_indicatieGestuwd"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_indicatieGestuwd">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>verticale doorlatendheid</item>
+                        <item>indicatie gestuwd</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -3129,12 +2936,11 @@ te laten in horizontale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het vermogen van de grond om vloeistof of gas door
-te laten in verticale richting in meter per dag.</item>
+                        <item>Indicatie of het interval door landijs gestuwd is.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3150,7 +2956,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -3158,7 +2964,58 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>REAL</item>
+                        <item>Indicatie</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geulgeneratie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_geulgeneratie"
+                        id-global="global_attribute_BRODGM_GeNterpreteerdGeologischeEenheidInterval_geulgeneratie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geulgeneratie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Code die aangeeft of het interval tot een holocene fluviatiele zandbaan behoort, en zo ja van welke generatie c.q. relatieve ouderdom de zandbaan is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3168,8 +3025,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="behoort tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_gerelateerdeBoormonsterprofiel"
-                        id-global="global_association_BROREGIS_GeNterpreteerdHydrogeologischEenheidInterval_gerelateerdeBoormonsterprofiel">
+                        id="detail_association_BRODGM_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving"
+                        id-global="global_association_BRODGM_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3181,11 +3038,15 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Één Geïnterpreteerd hydrogeologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                        <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een niet in het gegevensmodel weergegeven relatie is dat een geologische eenheid-interval een interpretatie is van 1 of meerdere opeenvolgende, aaneengesloten boorbeschrijvingsintervallen en dat een boorbeschrijvingsinterval altijd tot precies 1 geologische eenheid hoort. Verder geldt dat een geologische eenheid in 1 of meer lithoklasse-intervallen is onderverdeeld en dat een lithoklasse-interval altijd deel uit maakt van 1 geologische eenheid-interval.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3211,7 +3072,7 @@ te laten in verticale richting in meter per dag.</item>
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -3220,9 +3081,29 @@ te laten in verticale richting in meter per dag.</item>
                         <item>Naam</item>
                         <item>behoort tot</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd hydrogeologisch eenheid-interval behoort.</item>
+                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3232,7 +3113,7 @@ te laten in verticale richting in meter per dag.</item>
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROREGIS_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BRODGM_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -3240,12 +3121,12 @@ te laten in verticale richting in meter per dag.</item>
             </section>
             <section name="Laag"
                      type="OBJECTTYPE"
-                     id="detail_class_BROREGIS_Laag"
-                     id-global="global_class_BROREGIS_Laag">
+                     id="detail_class_BRODGM_Laag"
+                     id-global="global_class_BRODGM_Laag">
                <section name="grensvlak top"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_grensvlakTop"
-                        id-global="global_attribute_BROREGIS_Laag_grensvlakTop">
+                        id="detail_attribute_BRODGM_Laag_grensvlakTop"
+                        id-global="global_attribute_BRODGM_Laag_grensvlakTop">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3261,7 +3142,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3295,8 +3176,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="grensvlak basis"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_grensvlakBasis"
-                        id-global="global_attribute_BROREGIS_Laag_grensvlakBasis">
+                        id="detail_attribute_BRODGM_Laag_grensvlakBasis"
+                        id-global="global_attribute_BRODGM_Laag_grensvlakBasis">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3312,7 +3193,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3346,8 +3227,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="dikte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_dikte"
-                        id-global="global_attribute_BROREGIS_Laag_dikte">
+                        id="detail_attribute_BRODGM_Laag_dikte"
+                        id-global="global_attribute_BRODGM_Laag_dikte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3359,11 +3240,11 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Dikte van de laag.</item>
+                        <item>Dikte en standaarddeviatie van de dikte van de laag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3395,14 +3276,14 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-               <section name="hydrogeologische eenheid"
+               <section name="kans geologische eenheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_hydrogeologischeEenheid"
-                        id-global="global_attribute_BROREGIS_Laag_hydrogeologischeEenheid">
+                        id="detail_attribute_BRODGM_Laag_kansGeologischeEenheid"
+                        id-global="global_attribute_BRODGM_Laag_kansGeologischeEenheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>hydrogeologische eenheid</item>
+                        <item>kans geologische eenheid</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -3410,11 +3291,66 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een hydrologische eenheid is een gesteente lichaam dat op grond van petrografie, textuur of structuur binnen vastgestelde bandbreedten uniforme hydrogeologische eigenschappen vertoont en door laaggrenzen, faciesgrenzen, erosieranden of breuken wordt begrensd.</item>
+                        <item>De kans op het voorkomen van de geologische eenheid binnen het dekkingsgebied.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De kans wordt uigedrukt met  waarden tussen 0 en 1.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CV_Coverage</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geologische eenheid"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BRODGM_Laag_geologischeEenheid"
+                        id-global="global_attribute_BRODGM_Laag_geologischeEenheid">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geologische eenheid</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3438,7 +3374,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Hydrogeologische eenheid</item>
+                        <item>Geologische eenheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3448,8 +3384,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="breuk"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_breuk"
-                        id-global="global_attribute_BROREGIS_Laag_breuk">
+                        id="detail_attribute_BRODGM_Laag_breuk"
+                        id-global="global_attribute_BRODGM_Laag_breuk">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3465,7 +3401,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3499,8 +3435,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="karteergebied"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_karteergebied"
-                        id-global="global_attribute_BROREGIS_Laag_karteergebied">
+                        id="detail_attribute_BRODGM_Laag_karteergebied"
+                        id-global="global_attribute_BRODGM_Laag_karteergebied">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3516,7 +3452,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3548,231 +3484,10 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-               <section name="horizontale doorlatendheid"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_horizontaleDoorlatendheid"
-                        id-global="global_attribute_BROREGIS_Laag_horizontaleDoorlatendheid">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>horizontale doorlatendheid</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het vermogen van de grond om vloeistof of gas door te laten in horizontale richting in meter per dag.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>TNO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De horizontale doorlatendheid wordt berekend voor goed en matig goed doorlatende hydrogeologische lagen.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Doorlatendheid</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="verticale doorlatendheid"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_verticaleDoorlatendheid"
-                        id-global="global_attribute_BROREGIS_Laag_verticaleDoorlatendheid">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>verticale doorlatendheid</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het vermogen van de grond om vloeistof of gas door
-te laten in verticale richting in meter per dag.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>TNO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De verticale doorlatendheid wordt berekend voor slecht en minder goed doorlatende en complexe hydrogeologische lagen.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Doorlatendheid</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="transmissiviteit"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_transmissiviteit"
-                        id-global="global_attribute_BROREGIS_Laag_transmissiviteit">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>transmissiviteit</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Doorlaatvermogen; maat voor het vermogen van een watervoerend pakket om water door te laten in vierkante meters per dag (m2/d).</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>TNO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De transmissiviteit wordt berekend voor goed en matig goed doorlatende hydrogeologische lagen.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CV_Coverage</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="verticale weerstand"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROREGIS_Laag_verticaleWeerstand"
-                        id-global="global_attribute_BROREGIS_Laag_verticaleWeerstand">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>verticale weerstand</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Weerstand die een bepaalde laag biedt tegen een verticale grondwaterstroming in dagen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>TNO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De verticale weerstand wordt berekend voor slecht en minder goed doorlatende hydrogeologische lagen.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CV_Coverage</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="maakt deel uit van"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROREGIS_Laag_gerelateerdeModelgebied"
-                        id-global="global_association_BROREGIS_Laag_gerelateerdeModelgebied">
+                        id="detail_association_BRODGM_Laag_gerelateerdeModelgebied"
+                        id-global="global_association_BRODGM_Laag_gerelateerdeModelgebied">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3788,7 +3503,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3813,7 +3528,7 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                      </part>
                   </content>
@@ -3832,7 +3547,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
-                        <item>TNO</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3853,7 +3568,7 @@ te laten in verticale richting in meter per dag.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd objecttype</item>
                         <item>
-                           <item type="global" idref="global_class_BROREGIS_Modelgebied">Modelgebied</item>
+                           <item type="global" idref="global_class_BRODGM_Modelgebied">Modelgebied</item>
                         </item>
                      </part>
                   </content>
@@ -3862,14 +3577,14 @@ te laten in verticale richting in meter per dag.</item>
          </section>
          <!--removed empty content-->
          <section type="DETAILS-REFERENCELIST">
-            <section name="Hydrogeologische eenheid"
+            <section name="Geologische eenheid"
                      type="REFERENTIELIJST"
-                     id="detail_class_BROREGIS_HydrogeologischeEenheid"
-                     id-global="global_class_BROREGIS_HydrogeologischeEenheid">
+                     id="detail_class_BRODGM_GeologischeEenheid"
+                     id-global="global_class_BRODGM_GeologischeEenheid">
                <section name="code"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_BROREGIS_HydrogeologischeEenheid_code"
-                        id-global="global_attribute_BROREGIS_HydrogeologischeEenheid_code">
+                        id="detail_attribute_BRODGM_GeologischeEenheid_code"
+                        id-global="global_attribute_BRODGM_GeologischeEenheid_code">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3881,7 +3596,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Unieke, identificerende code van de hydrogeologische eenheid.</item>
+                        <item>Unieke, identificerende code van de geologische eenheid.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3895,8 +3610,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="naam"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_BROREGIS_HydrogeologischeEenheid_naam"
-                        id-global="global_attribute_BROREGIS_HydrogeologischeEenheid_naam">
+                        id="detail_attribute_BRODGM_GeologischeEenheid_naam"
+                        id-global="global_attribute_BRODGM_GeologischeEenheid_naam">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3908,7 +3623,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Naam van de hydrogeologische eenheid.</item>
+                        <item>Naam van de geologische eenheid.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3922,8 +3637,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="volgnummer"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_BROREGIS_HydrogeologischeEenheid_volgnummer"
-                        id-global="global_attribute_BROREGIS_HydrogeologischeEenheid_volgnummer">
+                        id="detail_attribute_BRODGM_GeologischeEenheid_volgnummer"
+                        id-global="global_attribute_BRODGM_GeologischeEenheid_volgnummer">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3935,7 +3650,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Volgnummer van de preferente volgorde waarin de hydrogeologische eenheden geordend zijn. Lage nummers liggen relatief hoog in de kolom. Het volgnummer wordt o.a. gebruikt bij het tonen van de hydrogeologische eenheden in een legenda.</item>
+                        <item>Volgnummer van de preferente stratigrafische volgorde waarin de geologische eenheden geordend zijn. Lage nummers liggen relatief hoog in de stratigrafische kolom. Het volgnummer wordt o.a. gebruikt bij het tonen van de geologische eenheden in een legenda.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3949,8 +3664,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="kleur"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_BROREGIS_HydrogeologischeEenheid_kleur"
-                        id-global="global_attribute_BROREGIS_HydrogeologischeEenheid_kleur">
+                        id="detail_attribute_BRODGM_GeologischeEenheid_kleur"
+                        id-global="global_attribute_BRODGM_GeologischeEenheid_kleur">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3962,7 +3677,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>RGB-waarden van de kleur waarmee de hydrogeologische eenheid in visualisaties wordt weergegeven.</item>
+                        <item>RGB-waarden van de kleur waarmee de geologische eenheid in visualisaties wordt weergegeven.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3980,12 +3695,12 @@ te laten in verticale richting in meter per dag.</item>
          <section type="DETAILS-STRUCTUREDDATATYPE">
             <section name="Interval"
                      type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_BROREGIS_Interval"
-                     id-global="global_class_BROREGIS_Interval">
+                     id="detail_class_BRODGM_Interval"
+                     id-global="global_class_BRODGM_Interval">
                <section name="top"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Interval_top"
-                        id-global="global_attribute_BROREGIS_Interval_top">
+                        id="detail_attribute_BRODGM_Interval_top"
+                        id-global="global_attribute_BRODGM_Interval_top">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3997,7 +3712,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -4011,8 +3726,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="basis"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Interval_basis"
-                        id-global="global_attribute_BROREGIS_Interval_basis">
+                        id="detail_attribute_BRODGM_Interval_basis"
+                        id-global="global_attribute_BRODGM_Interval_basis">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4024,7 +3739,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -4039,12 +3754,12 @@ te laten in verticale richting in meter per dag.</item>
             </section>
             <section name="Grensvlak"
                      type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_BROREGIS_Grensvlak"
-                     id-global="global_class_BROREGIS_Grensvlak">
+                     id="detail_class_BRODGM_Grensvlak"
+                     id-global="global_class_BRODGM_Grensvlak">
                <section name="hoogteligging"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Grensvlak_hoogteligging"
-                        id-global="global_attribute_BROREGIS_Grensvlak_hoogteligging">
+                        id="detail_attribute_BRODGM_Grensvlak_hoogteligging"
+                        id-global="global_attribute_BRODGM_Grensvlak_hoogteligging">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4070,8 +3785,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="standaardeviatie"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Grensvlak_standaardeviatie"
-                        id-global="global_attribute_BROREGIS_Grensvlak_standaardeviatie">
+                        id="detail_attribute_BRODGM_Grensvlak_standaardeviatie"
+                        id-global="global_attribute_BRODGM_Grensvlak_standaardeviatie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4087,7 +3802,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4098,12 +3813,12 @@ te laten in verticale richting in meter per dag.</item>
             </section>
             <section name="Dikte"
                      type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_BROREGIS_Dikte"
-                     id-global="global_class_BROREGIS_Dikte">
+                     id="detail_class_BRODGM_Dikte"
+                     id-global="global_class_BRODGM_Dikte">
                <section name="dikte"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Dikte_dikte"
-                        id-global="global_attribute_BROREGIS_Dikte_dikte">
+                        id="detail_attribute_BRODGM_Dikte_dikte"
+                        id-global="global_attribute_BRODGM_Dikte_dikte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4127,19 +3842,14 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-            </section>
-            <section name="Doorlatendheid"
-                     type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_BROREGIS_Doorlatendheid"
-                     id-global="global_class_BROREGIS_Doorlatendheid">
-               <section name="doorlatendheid"
+               <section name="standaardeviate"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Doorlatendheid_doorlatendheid"
-                        id-global="global_attribute_BROREGIS_Doorlatendheid_doorlatendheid">
+                        id="detail_attribute_BRODGM_Dikte_standaardeviate"
+                        id-global="global_attribute_BRODGM_Dikte_standaardeviate">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>doorlatendheid</item>
+                        <item>standaardeviate</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4147,7 +3857,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een maat voor het vermogen van de grond om vloeistof of gas door te laten, gelijk te stellen aan de volumestroom door een eenheid van oppervlakte als de stijghoogtegradiënt loodrecht op het oppervlak gelijk is aan één, in meter per dag.</item>
+                        <item>Standaarddeviatie van de dikte in m.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -4159,42 +3869,15 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                   </content>
                </section>
-               <section name="standaarddeviatie"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Doorlatendheid_standaarddeviatie"
-                        id-global="global_attribute_BROREGIS_Doorlatendheid_standaarddeviatie">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>standaarddeviatie</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Standaarddeviatie van de doorlatendheid in meter per dag.</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CV_Coverage</item>
-                     </part>
-                  </content>
-               </section>
             </section>
             <section name="Kleur"
                      type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_BROREGIS_Kleur"
-                     id-global="global_class_BROREGIS_Kleur">
+                     id="detail_class_BRODGM_Kleur"
+                     id-global="global_class_BRODGM_Kleur">
                <section name="rood"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Kleur_rood"
-                        id-global="global_attribute_BROREGIS_Kleur_rood">
+                        id="detail_attribute_BRODGM_Kleur_rood"
+                        id-global="global_attribute_BRODGM_Kleur_rood">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4220,8 +3903,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="groen"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Kleur_groen"
-                        id-global="global_attribute_BROREGIS_Kleur_groen">
+                        id="detail_attribute_BRODGM_Kleur_groen"
+                        id-global="global_attribute_BRODGM_Kleur_groen">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4247,8 +3930,8 @@ te laten in verticale richting in meter per dag.</item>
                </section>
                <section name="blauw"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_BROREGIS_Kleur_blauw"
-                        id-global="global_attribute_BROREGIS_Kleur_blauw">
+                        id="detail_attribute_BRODGM_Kleur_blauw"
+                        id-global="global_attribute_BRODGM_Kleur_blauw">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4279,8 +3962,8 @@ te laten in verticale richting in meter per dag.</item>
          <section type="DETAILS-ENUMERATION">
             <section name="Indicatie"
                      type="DETAIL-ENUMERATION"
-                     id="detail_class_BROREGIS_Indicatie"
-                     id-global="global_class_BROREGIS_Indicatie"
+                     id="detail_class_BRODGM_Indicatie"
+                     id-global="global_class_BRODGM_Indicatie"
                      uuid="EAID_59E5F7F9_781C_4607_94B9_F605E5DEBCA5">
                <content>
                   <part>
