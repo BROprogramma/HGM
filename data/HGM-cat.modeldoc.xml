@@ -3,47 +3,19 @@
       subpath="REGIS/BRO: REGIS/20180925"
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
-      generator-version="1.47.3"
-      generator-date="2018-10-15T05:38:16Z">
+      generator-version="1.47.6"
+      generator-date="2018-11-12T15:27:52Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
       <section type="IMAGEMAPS"
                name="BRO: REGIS-imagemap"
                id="imagemap_package_BROREGIS">
          <section type="IMAGEMAP"
-                  name="Geïnterpreteerde boormonsterbeschrijvingen met beschrijvings- en interpretatie-intervallen - overzicht"
+                  name="REGIS II (Hydrogeologisch model) - overzicht"
                   id="EAID_F5C182FD_0FDF_4a8e_8743_45661AAB7289">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Geïnterpreteerde boormonsterbeschrijvingen met beschrijvings- en interpretatie-intervallen - overzicht</item>
-               </part>
-               <part type="CFG-DOC-DESCRIPTION">
-                  <item>Omschrijving</item>
-                  <item/>
-               </part>
-            </content>
-         </section>
-         <section type="IMAGEMAP"
-                  name="HGM objecten zonder attributen - overzicht"
-                  id="EAID_567CA058_3E18_410c_9A70_B15C82F2D77E">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>HGM objecten zonder attributen - overzicht</item>
-               </part>
-               <part type="CFG-DOC-DESCRIPTION">
-                  <item>Omschrijving</item>
-                  <item/>
-               </part>
-            </content>
-         </section>
-         <section type="IMAGEMAP"
-                  name="Lagenmodel - overzicht"
-                  id="EAID_71D4736B_2FC5_4209_84BD_968F3D960275">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Lagenmodel - overzicht</item>
+                  <item>REGIS II (Hydrogeologisch model) - overzicht</item>
                </part>
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
