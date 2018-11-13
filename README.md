@@ -12,5 +12,5 @@ Van 13 november tot 1 januari loopt de consultatie over de catalogus REGIS II (H
 De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor het goed begrijpen van de catalogus is er een [Inleiding Catalogus][3] deze is echter geen onderdeel van de consultatie zelf. 
 
 [1]: https://github.com/BROprogramma/HGM/raw/master/20181113_catalogus_REGISII.pdf
-[2]: https://github.com/BROprogramma/HGM/blob/gh-pages/consultatie-instructie.md
+[2]: https://github.com/BROprogramma/HGM/blob/master/consultatie-instructie.md
 [3]: https://github.com/BROprogramma/HGM/raw/master/Inleiding%20catalogi%20modellen.pdf
