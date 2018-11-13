@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.6"
-      generator-date="2018-11-12T15:27:52Z">
+      generator-date="2018-11-13T07:04:50Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
       <section type="IMAGEMAPS"
                name="BRO: REGIS-imagemap"
@@ -114,6 +114,16 @@
                   <part>
                      <item>
                         <item>Model</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
+                        </item>
+                     </item>
+                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Model</item>
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
@@ -131,6 +141,16 @@
                   <itemtype/>
                   <itemtype type="ROLE-NAME"/>
                   <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Model</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
+                        </item>
+                     </item>
+                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                  </part>
                   <part>
                      <item>
                         <item>Model</item>
