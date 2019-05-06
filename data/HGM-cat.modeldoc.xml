@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.6"
-      generator-date="2018-11-13T07:04:50Z">
+      generator-date="2019-05-06T07:06:51Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
       <section type="IMAGEMAPS"
                name="BRO: REGIS-imagemap"
@@ -1607,7 +1607,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -1960,7 +1960,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -3078,7 +3078,7 @@ te laten in horizontale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -3130,7 +3130,7 @@ te laten in verticale richting in meter per dag.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
