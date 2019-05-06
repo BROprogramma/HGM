@@ -81,7 +81,7 @@ REGIS II bevat altijd het meest actuele model.
 De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of
 referentielijsten) bekend op een algemeen bekend formaat (PDF en als
 downloadable bestand) en maakt deze toegankelijk via
-www.basisregistratieondergrond.nl. De waardenlijsten worden waar mogelijk
+www.basisregistratieondergrond.nl. De waardenlijsten worden 
 meegeleverd bij de modellevering.
 
 Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór
