@@ -78,6 +78,16 @@ Versiebeheer
 Op REGIS II is versiebeheer van toepassing. De in de BRO uitgeleverde versie van
 REGIS II bevat altijd het meest actuele model.
 
+De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of
+referentielijsten) bekend op een algemeen bekend formaat (PDF en als
+downloadable bestand) en maakt deze toegankelijk via
+www.basisregistratieondergrond.nl. De waardenlijsten worden waar mogelijk
+meegeleverd bij de modellevering.
+
+Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór
+inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd
+hebben om hun eigen omgeving op de wijzigingen aan te passen.
+
 Modelonzekerheden
 -----------------
 
