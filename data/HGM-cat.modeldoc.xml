@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.6"
-      generator-date="2019-05-06T07:06:51Z">
+      generator-date="2019-05-15T07:30:01Z">
    <section type="DOMAIN" name="BRO: REGIS" id="global_package_BROREGIS">
       <section type="IMAGEMAPS"
                name="BRO: REGIS-imagemap"
@@ -119,7 +119,7 @@
                            <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                     <item>Een entititeit met het geheel van generieke gegevens die voorkomen bij alle verschillende soorten registratieobjecten in de basisregistratie ondergrond (BRO).</item>
                   </part>
                   <part>
                      <item>
@@ -149,7 +149,7 @@
                            <item type="global" idref="global_class_BROCommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                     <item>Een entititeit met het geheel van generieke gegevens die voorkomen bij alle verschillende soorten registratieobjecten in de basisregistratie ondergrond (BRO).</item>
                   </part>
                   <part>
                      <item>
