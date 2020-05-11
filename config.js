@@ -1,26 +1,28 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-DEF",
   specType: "IM",
-  //publishDate: "2018-10-15",
-  editors: [{
-    name: "Arnoud de Boer",
-    company: "Geonovum",
-    companyURL: "https://www.geonovum.nl"
-  }],
-   authors: [
+   publishDate: "2020-03-31", 
+  logos: [
+  {src: 'logo_bro.png',
+    href: "http://basisregistratieondergrond.nl",
+    alt: "Basisregistratie Ondergrond",
+    width: 260,
+    height: 458,
+    id: 'BRO'},
+  {
+    src: 'logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
+    alt: "Ministerie BZK",
+    width: 260,
+    height: 458,
+    id: 'BZK',
+  }]  ,
+  editors: [],
+  authors: [
     {
-      name: "Jan Hummelman",
-      company: "TNO",
-      companyURL: "http://www.tno.nl",
-    },
-	{
-      name: "Jan Stafleu",
-      company: "TNO",
-      companyURL: "http://www.tno.nl",
-    },
-	{
-      name: "Rob van Ede",
-      company: "TNO",
+      name: "TNO Geologische Dienst Nederland",
+	  mailto: "support@broservicedesk.nl",
+	  note: "088 – 8664 999",
       companyURL: "http://www.tno.nl",
     }],
   shortName: "bro-HGM",
