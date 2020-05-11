@@ -17,7 +17,7 @@ var respecConfig = {
     width: 229,
     height: 130,
     id: 'BZK',
-  }]  ,
+  }],
   editors: [],
   authors: [
     {
