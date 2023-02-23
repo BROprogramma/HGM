@@ -120,6 +120,11 @@ onzekerheidsmarges in de gebruikte brongegevens (waaronder de
 boormonsterbeschrijvingen). In REGIS II spreken we daarom van *modelonzekerheid*
 in plaats van *onzekerheid*.
 
+### Standaarddeviaties van de geometrie gekarteerde hydrogeologische eenheden
+
+Standaarddeviaties van de geometrie gekarteerde hydrogeologische eenheden De geometrie van de gekarteerde hydrogeologische eenheden wordt berekend middels een zgn. kriging interpolatie. Aangezien bij het modelleren niet alleen informatie uit boringen, maar ook aanvullende hydrogeologische kennis wordt toegevoegd, levert de kriging variantie geen bruikbare maat voor onzekerheid. Daarom wordt voor het bepalen van deze onzekerheid een op cross validatie gebaseerde methode gebruikt. De onzekerheids-rasters geven voor elke rastercel de modelonzekerheid van de geometrie weer, uitgedrukt in een standaarddeviatie (m). Met de standaarddeviatie is het mogelijk om de kans te bepalen dat de diepteligging of dikte van een gekarteerd grensvlak een bepaalde afwijking vertoont van de door het model geschatte, meest waarschijnlijke waarde.
+Alleen van gekarteerde hydrogeologische eenheden worden onzekerheden geometrie berekend. Van afgeleide hydrogeologische eenheden worden geen onzekerheden geometrie berekend. In het Totstandkomingsrapport Kleine Release REGIS II onzekerheden geometrie wordt de gebruikte methode nader beschreven.
+
 ### Standaarddeviaties van de doorlatendheid in het lagenmodel
 
 Van de meeste hydrogeologische eenheden is van de doorlatendheid een
