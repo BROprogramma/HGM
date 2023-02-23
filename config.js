@@ -25,8 +25,8 @@ var respecConfig = {
   shortName: "HGM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/HGM",
-  previousPublishDate: "2019-05-07",
-  previousStatus: "GN-DEF",
+  previousPublishDate: "2023-02-23",
+  previousStatus: "GN-CV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
